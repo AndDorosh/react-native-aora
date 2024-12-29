@@ -17,7 +17,7 @@ const TabIcon: FC<TTabIcon> = ({ icon, color, name, focused }) => {
                 source={icon}
                 resizeMode="contain"
                 tintColor={color}
-                style={{width: 24, height: 24}}
+                style={{ width: 24, height: 24 }}
             />
         </View>
     );
